@@ -1,0 +1,17 @@
+.customRow {
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    /* height: 100vh; */
+}
+
+.phoneCustom{
+    font: 1.3rem sans-serif;
+    padding-right: 1%;
+}
+
+.makeContactLogo{
+    height: 25%;
+    width: 25%;
+
+}

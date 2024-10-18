@@ -1,0 +1,29 @@
+.customRow {
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+
+.areaTitle {
+    font-size: 4.5rem; /* Adjust size as needed */
+    text-align: center; /* Center the text */
+    justify-content: center;
+    color: rgba(238, 140, 2, 0.877); /* Change to your desired color */
+    margin: 0; /* Remove default margin */
+    padding-bottom: 1%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow for better visibility */
+}
+
+.customRowBorder{
+    /* border-top: 8px solid rgba(184, 124, 14, 0.396); 
+    border-bottom: 8px solid rgba(184, 124, 14, 0.396); 
+    border-left: none; 
+    border-right: none;  */
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+    
+}
+
+.cardContainer{
+    padding-top: 1%;
+}

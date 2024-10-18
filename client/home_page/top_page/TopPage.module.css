@@ -1,0 +1,36 @@
+.customRow {
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    
+    
+    background-color: rgba(249, 249, 249, 0);
+    position: relative; /* Make it a positioning context */
+     /* Full height */
+    
+
+    
+}
+
+
+.backgroundVideo {
+    position: absolute; 
+    
+    z-index: -1; /* Push it behind other content */
+    pointer-events: none; /* Prevent video from blocking interactions */
+
+    height: 100%; /* Full height */
+    width: 100%; /* Full width */
+    object-fit: cover;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s;
+    padding: 0;
+}
+
+.NavBar, .col-12 { 
+    position: relative; 
+   
+    z-index: 2; /* Place content above the video */
+}

@@ -1,0 +1,48 @@
+.navbarCustom {
+    background-color: rgba(248, 245, 245, 0.9); /* Semi-transparent background */
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.8); /* Add a shadow */
+    z-index: 1000; /* Ensure it’s on top */
+    position: sticky;
+    top: 0; /* Stick to the top of the viewport */
+    padding: 0.75%;
+    
+}
+
+.navLink {
+    color: #4e4c4c; /* Text color */
+    font-weight: bold; /* Bold text */
+    font-size: 1.5rem; /* Increase font size */
+    font-family: 'Roboto', sans-serif; /* Set a modern, clean font */
+    text-decoration: none; /* Remove underline */
+    padding-bottom: 5px; /* Add some space between text and underline */
+    
+}
+
+.active {
+    color: #ff8c00; /* Optionally change the color for active section */
+    border-bottom: 3px solid #ff8c00; /* Brown underline */
+}
+
+.navLink:hover {
+    color: #ff8c00; /* Change color on hover */
+}
+
+.liCustom{
+    padding-right: 5rem;
+}
+
+/*
+    Responsive design for smaller screens
+    Adjust font sizes and padding as needed
+*/
+@media (max-width: 1000px) {
+    .navLink {
+      font-size: 1.1rem; 
+      padding: 0;
+      margin: 0;
+    }
+    .liCustom{
+        padding-right: 1.2rem;
+    }
+}
+    

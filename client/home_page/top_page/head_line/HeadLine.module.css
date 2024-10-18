@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'MyCustomFont'; /* Your custom font name */
+    src: url('/public/fonts/Birzia_Family/Birzia-Light.woff') format('woff'); /* Path to the font file in public/fonts folder */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyCustomBold'; /* Your custom font name */
+    src: url('/public/fonts/Birzia_Family/Birzia-Bold.woff') format('woff'); /* Path to the font file in public/fonts folder */
+    font-weight: bold;
+    font-style: normal;
+}
+
+.headLine {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Make it take the full height of the viewport */
+    text-align: center; /* Center text inside the container */
+    color: #fff; /* Optional: Change text color for better visibility */
+    
+}
+
+.headLineButton {
+    font-size: 2.0rem; /* Increase font size */
+    color: orange; /* Text color */
+    background-color: white; /* Background color */
+    border: 2px solid orange; /* Border color and size */
+    border-radius: 35px; /* Optional: rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    width: auto; /* Let the button width adjust to content */
+    font-family: 'MyCustomBold', sans-serif;
+}
+
+.headLineButton:hover {
+    background-color: orange; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
+
+.firstTitle{
+    font-size: 6rem; /* Increase font size */
+    font-weight: bold; /* Bold text */
+    color: #ffffff; /* White text */
+    text-align: center; /* Center the text */
+    margin: 0;
+    font-family: 'MyCustomBold', sans-serif;
+    
+}
+
+.secondTitle{
+    font-size: 8rem; /* Increase font size */
+    font-weight: bold; /* Bold text */
+    color: #e4800d; /* White text */
+    text-align: center; /* Center the text */ 
+    margin: 0;
+    font-family: 'MyCustomBold', sans-serif;
+}
+
+.headDescription{
+    font-size: 2.5rem; /* Increase font size */
+
+    color: #f0ecec; /* White text */
+    text-align: center; /* Center the text */ 
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+.logoCostom{
+    max-width: 10%; /* Set width */
+    height: 10%; /* Set height */
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+    Responsive design for smaller screens
+    Adjust font sizes and padding as needed
+*/
+@media (max-width: 1000px) {
+    .firstTitle {
+      font-size: 4.5rem; /* Adjust to your desired size */
+    }
+    .secondTitle {
+      font-size: 6rem; /* Adjust to your desired size */
+    }
+    .headDescription {
+      font-size: 2rem; /* Adjust to your desired size */
+    }
+    .headLineButton {
+      font-size: 2rem; /* Adjust to your desired size */
+      padding: 0.5rem 1rem; /* Adjust padding as necessary */
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .firstTitle {
+      font-size: 3.7rem; /* Adjust to your desired size */
+    }
+    .secondTitle {
+      font-size: 5rem; /* Adjust to your desired size */
+    }
+    .headDescription {
+      font-size: 1.7rem; /* Adjust to your desired size */
+    }
+    .headLineButton {
+      font-size: 2rem; /* Adjust to your desired size */
+      padding: 0.5rem 1rem; /* Adjust padding as necessary */
+    }
+  }

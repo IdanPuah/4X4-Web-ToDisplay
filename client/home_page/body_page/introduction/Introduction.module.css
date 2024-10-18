@@ -1,0 +1,64 @@
+.customRow {
+  border: 2px solid #000; 
+  border-radius: 5px; 
+  background-color: #f9f9f9; 
+}
+
+
+
+/* .IntroductionContainer{
+  margin-top: 8%;
+  margin-bottom: 8%;
+} */
+
+.introduction {
+  background: none;
+    border: none;
+    padding: 20px; /* Spacing inside the container */
+    margin-top: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); /* Adds a shadow */
+    position: relative; /* Necessary for positioning the pseudo-element */
+  }
+  
+  .title {
+    font-size: 3.7rem; /* Larger font size for the title */
+    color: #f39304; /* Dark color for contrast */
+    margin-bottom: 15px; /* Space below the title */
+    position: relative; /* Necessary for positioning the pseudo-element */
+    
+  }
+
+  .title::after {
+    content: ""; /* Required for pseudo-element */
+    position: absolute; /* Positioning */
+    right: -0.7%; /* Distance from the title */
+    top: 55%; /* Center vertically */
+    transform: translateY(-50%); /* Center the line */
+    width: 4px; /* Width of the vertical line */
+    height: 80%; /* Height of the vertical line */
+    background-color: #f39304; /* Color of the vertical line */
+    border-radius: 2px; /* Optional: rounded corners for the line */
+  }
+  
+  .paragraph {
+    font-size: 1.5rem; /* Comfortable font size for paragraphs */
+    color: #495057; /* Slightly lighter dark color */
+    line-height: 1.6; /* Improved line spacing */
+    margin-bottom: 10px; /* Space below paragraphs */
+  }
+
+  .firstP{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3%;
+  }
+  
+  .backGroundImgIntro {
+    flex-grow: 1; /* Ensures it grows with the content */
+    object-fit: contain;
+    margin: 0 auto;
+   
+  }
+  
+ 

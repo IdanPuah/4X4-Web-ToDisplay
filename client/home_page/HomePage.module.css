@@ -1,0 +1,40 @@
+.customRow {
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (if there's height) */
+}
+
+.imgBackgroundNorth {
+    background-image: url('/public/images/north.jpg'); 
+    background-size: cover; /* Make sure it covers the entire div */
+    background-position: center; /* Center the image */
+    height: 500px; /* Set a fixed height, adjust as needed */
+}
+
+.imgBackgroundCenter {
+    background-image: url('/public/images/center.jpg'); 
+    background-size: cover; /* Make sure it covers the entire div */
+    background-position: center; /* Center the image */
+    height: 500px; /* Set a fixed height, adjust as needed */
+}
+
+.imgBackgroundSouth {
+    background-image: url('/public/images/south.jpg'); 
+    background-size: cover; /* Make sure it covers the entire div */
+    background-position: center; /* Center the image */
+    height: 500px; /* Set a fixed height, adjust as needed */
+}
+
+
+.partTwoTitle {
+    font-size: 96px; /* Adjust size as needed */
+    text-align: center; /* Center the text */
+    color: white; /* Change to your desired color */
+    margin: 0; /* Remove default margin */
+    padding: 20px 0; /* Add vertical padding for spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow for better visibility */
+}

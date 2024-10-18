@@ -1,0 +1,33 @@
+.cardContainer {
+    border: 1px solid #e0e0e0; /* Light border for separation */
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Ensure content stays within borders */
+    transition: transform 0.2s; /* Smooth hover effect */
+    height: 85%;
+    width: 85%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+    cursor: pointer; /* Show pointer on hover */
+}
+
+.cardContainer:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8); /* Deeper shadow on hover */
+}
+
+.cardContainer img {
+    height: 55%;
+    width: 100%;
+    object-fit: cover; /* Cover to maintain aspect ratio */
+    
+}
+
+.cardBody {
+    display: flex; /* Use flexbox to position contents */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.cardTitle {
+    color: black; /* Bootstrap primary color */
+    font-weight: bold; /* Bold title */
+    margin: 0; 
+}
+

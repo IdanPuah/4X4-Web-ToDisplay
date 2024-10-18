@@ -1,0 +1,21 @@
+.customRow {
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+
+.makeContactTitle{
+    font: 1.4em sans-serif;
+    padding: 1%;
+    position: relative;
+    display: inline-block;
+}
+
+.makeContactTitle::after {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Position it at the bottom of the element */
+    left: 25%; /* Start the line from 25% to center it */
+    width: 45%; /* Make the line 50% of the title's width */
+    border-bottom: 4px solid #f79605; /* Style of the line */
+  }
